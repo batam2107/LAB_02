@@ -1,0 +1,31 @@
+.header-title {
+    font-weight: 600;
+}
+
+[data-bs-theme=dark] {
+    --bs-body-bg: #fff;
+}
+
+.input-search {
+    color: #000;
+}
+
+.btn-search {
+    background-color: red;
+    border: none;
+
+    &:hover {
+        background-color: red;
+        opacity: 0.8;
+    }
+}
+
+.me-2 {
+    margin-right: 0 !important;
+}
+
+@media (min-width: 1200px){
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 900px;
+    }
+}

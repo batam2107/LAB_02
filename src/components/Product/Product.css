@@ -1,0 +1,38 @@
+.sale, .new {
+    position: relative;
+}
+
+.sale:before, .new:before {
+    position: absolute;
+    background-color: yellow;
+    width: fit-content;
+    font-weight: bold;
+    font-family: serif;
+    padding: 0 20px;
+    border-radius: 3px;
+}
+
+.sale:before {
+    content: "SALE";
+}
+
+.new:before {
+    content: "NEW";
+}
+
+.title-card {
+    font-family: serif;
+}
+
+.btn-buy {
+    width: 100%;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.price-color {
+    color: rgb(237, 189, 131);
+    font-weight: 700;
+}
